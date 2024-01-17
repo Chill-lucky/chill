@@ -282,7 +282,6 @@ https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/BaiduCloud.
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Function/BilibiliAutoRegion.conf, tag=B站换区脚本[不会配置boxjs请勿勾选]@ddgksf2013, update-interval=172800, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/Html/Douban.conf, tag=豆瓣电影网页快捷跳转@ddgksf2013, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=boxjs@chavyleung, update-interval=172800, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-Store@Peng-YM, update-interval=172800, opt-parser=false, enabled=true
 
 #Sub-Sture
 https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/QX.snippet, tag=Sub-Store, update-interval=172800, opt-parser=false, enabled=true
@@ -298,7 +297,7 @@ https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_scri
 
 #重定向
 https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Redirect/Redirect.conf, tag=重定向, update-interval=172800, opt-parser=false, enabled=true
-#https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/SafeRedirect/SafeRedirect.conf, tag=安全重定向, update-interval=172800, opt-parser=false, enabled=true
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/SafeRedirect/SafeRedirect.conf, tag=安全重定向, update-interval=172800, opt-parser=false, enabled=true
 
 #请求列表计划任务
 [task_local]
