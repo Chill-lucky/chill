@@ -43,6 +43,7 @@ static=Talkatone, 美国(延迟优选), 自动(延迟优选), 自动(故障转�
 static=GitHub, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://github.com/blackmatrix7/ios_rule_script/raw/master/icon/color/github.png
 static=Global, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Global.png
 static=Apple, direct, 节点选择, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/apple.png
+static=光影时光, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/duang.png
 
 #漏网之鱼
 static=Final, direct, proxy, reject, 节点选择, 自动(延迟优选), 自动(故障转移), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
@@ -103,6 +104,9 @@ https://raw.githubusercontent.com/mottzz87/crules/main/rule/talkatone.list, tag=
 
 # Apple
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=Apple, force-policy=Apple, update-interval=172800, opt-parser=true, enabled=true
+
+# PT
+https://raw.githubusercontent.com/Chill-lucky/chill/main/Rules-pt, tag=PT, force-policy=光影时光, update-interval=172800, opt-parser=true, enabled=true
 
 [rewrite_remote]
 
