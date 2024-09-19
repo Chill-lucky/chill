@@ -34,18 +34,18 @@ doh-server = https://doh.pub/dns-query,https://dns.alidns.com/dns-query,https://
 static=节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Proxy.png
 
 #应用策略
-static=Google, 香港(延迟优选), 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5f598f6e80ca66ff86ae33ea208f114acb20c93e/icon/color/google.png
-static=OpenAI, 美国(延迟优选), proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/mgxray/Quantumult_x_II/main/country/chatgpt.png
-static=Telegram, 新加坡(延迟优选), 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
-static=YouTube, 香港(延迟优选), 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
-static=Twitter, 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
-static=Talkatone, 美国(延迟优选), proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
-static=GitHub, 香港(延迟优选), proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://github.com/blackmatrix7/ios_rule_script/raw/master/icon/color/github.png
-static=Global, 香港(延迟优选), 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Global.png
-static=Apple, direct, 节点选择, proxy, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/apple.png
+static=Google, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5f598f6e80ca66ff86ae33ea208f114acb20c93e/icon/color/google.png
+static=OpenAI, 美国(延迟优选), 节点选择, img-url=https://raw.githubusercontent.com/mgxray/Quantumult_x_II/main/country/chatgpt.png
+static=Telegram, 新加坡(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+static=YouTube, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+static=Twitter, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
+static=Talkatone, 美国(延迟优选), 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
+static=GitHub, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://github.com/blackmatrix7/ios_rule_script/raw/master/icon/color/github.png
+static=Global, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Global.png
+static=Apple, direct, 节点选择, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/apple.png
 
 #漏网之鱼
-static=Final, direct, 节点选择, proxy, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+static=Final, direct, proxy, reject, 节点选择, 自动(延迟优选), 自动(故障转移), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 
 #自动策略
 url-latency-benchmark=自动(延迟优选), server-tag-regex=^*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Auto_Speed.png
@@ -63,29 +63,52 @@ url-latency-benchmark=美国(延迟优选), server-tag-regex=^(?=.*(🇺🇸|美
 [server_remote]
 
 [filter_remote]
+
+# 广告拦截
 https://raw.githubusercontent.com/axinhouzilaoyue/myScript/main/rules/talkatoneAdBlock.list, tag=广告拦截, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/AdBlock.list, tag=广告拦截, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
+
+# CN 规则
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/GEOIPCN.list, tag=ChinaCN, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/LAN.list, tag=ChinaLAN, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
+
+# 规则修正
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/Unbreak.list, tag=规则修正, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+
+#应用规则
+
+# Google
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list, tag=Google, force-policy=Google, update-interval=172800, opt-parser=true, enabled=true
+
+# OpenAI
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/OpenAI/OpenAI.list, tag=OpenAI, force-policy=OpenAI, update-interval=172800, opt-parser=true, enabled=true
+
+# YouTube
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list, tag=YouTube, force-policy=YouTube, update-interval=172800, opt-parser=true, enabled=true
 
-# Youtube
+# Telegram
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list, tag=Telegram, force-policy=Telegram, update-interval=172800, opt-parser=true, enabled=true
+
+# Twitter
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Twitter/Twitter.list, tag=Twitter, force-policy=Twitter, update-interval=172800, opt-parser=true, enabled=true
+
+# GitHub
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/GitHub.list, tag=GitHub, force-policy=GitHub, update-interval=172800, opt-parser=true, enabled=true
 
-#GlobalMedia
+# GlobalMedia
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/GlobalMedia.list, tag=GlobalMedia, force-policy=Global, update-interval=172800, opt-parser=true, enabled=true
 
-#Apple
+# Talkatone
 https://raw.githubusercontent.com/mottzz87/crules/main/rule/talkatone.list, tag=Talkatone, force-policy=Talkatone, update-interval=172800, opt-parser=true, enabled=true
+
+# Apple
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=Apple, force-policy=Apple, update-interval=172800, opt-parser=true, enabled=true
 
 [rewrite_remote]
+
+# 谷歌重定向
 https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/QuantumultX/Google_rewrite.conf, tag=谷歌重定向, update-interval=172800, opt-parser=true, enabled=true
+
 # 高德去广告
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Rewrite/AMAP.conf, tag=高德去广告, update-interval=172800, opt-parser=false, inserted-resource=true, enabled=true
 
