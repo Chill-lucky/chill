@@ -32,6 +32,7 @@ doh-server = https://doh.pub/dns-query,https://dns.alidns.com/dns-query,https://
 [policy]
 #手动策略
 static=节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Proxy.png
+static=光影时光, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/duang.png
 
 #应用策略
 static=Google, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5f598f6e80ca66ff86ae33ea208f114acb20c93e/icon/color/google.png
@@ -43,7 +44,6 @@ static=Talkatone, 美国(延迟优选), 自动(延迟优选), 自动(故障转�
 static=GitHub, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://github.com/blackmatrix7/ios_rule_script/raw/master/icon/color/github.png
 static=Global, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Global.png
 static=Apple, direct, 节点选择, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/apple.png
-static=光影时光, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/duang.png
 
 #漏网之鱼
 static=Final, direct, proxy, reject, 节点选择, 自动(延迟优选), 自动(故障转移), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
