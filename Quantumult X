@@ -34,18 +34,18 @@ doh-server = https://doh.pub/dns-query,https://dns.alidns.com/dns-query,https://
 static=节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Proxy.png
 
 #应用策略
-static=Google, 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5f598f6e80ca66ff86ae33ea208f114acb20c93e/icon/color/google.png
-static=OpenAI, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/mgxray/Quantumult_x_II/main/country/chatgpt.png
-static=Telegram, 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
-static=YouTube, 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+static=Google, 香港(延迟优选), 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5f598f6e80ca66ff86ae33ea208f114acb20c93e/icon/color/google.png
+static=OpenAI, 美国(延迟优选), proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/mgxray/Quantumult_x_II/main/country/chatgpt.png
+static=Telegram, 新加坡(延迟优选), 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
+static=YouTube, 香港(延迟优选), 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 static=Twitter, 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
-static=Talkatone, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
-static=GitHub, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://github.com/blackmatrix7/ios_rule_script/raw/master/icon/color/github.png
-static=Global, 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Global.png
-static=Apple, 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/apple.png
+static=Talkatone, 美国(延迟优选), proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
+static=GitHub, 香港(延迟优选), proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://github.com/blackmatrix7/ios_rule_script/raw/master/icon/color/github.png
+static=Global, 香港(延迟优选), 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Global.png
+static=Apple, direct, 节点选择, proxy, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/apple.png
 
 #漏网之鱼
-static=Final, 节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+static=Final, direct, 节点选择, proxy, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 
 #自动策略
 url-latency-benchmark=自动(延迟优选), server-tag-regex=^*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Auto_Speed.png
