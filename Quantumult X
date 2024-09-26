@@ -32,7 +32,7 @@ doh-server = https://doh.pub/dns-query,https://dns.alidns.com/dns-query,https://
 [policy]
 #手动策略
 static=节点选择, proxy, direct, reject, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Proxy.png
-static=光影时光, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/duang.png
+#static=光影时光, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/duang.png
 
 #应用策略
 static=Google, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/5f598f6e80ca66ff86ae33ea208f114acb20c93e/icon/color/google.png
@@ -40,14 +40,13 @@ static=OpenAI, 美国(延迟优选), 节点选择, img-url=https://raw.githubuse
 static=Telegram, 狮城(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 static=YouTube, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 static=Twitter, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
-static=Talkatone, 美国(延迟优选), 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
 static=GitHub, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://github.com/blackmatrix7/ios_rule_script/raw/master/icon/color/github.png
 static=Global, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Global.png
-static=Docker, direct, 节点选择, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
+static=Docker, 香港(延迟优选), direct, 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
 static=Apple, direct, 节点选择, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/apple.png
 
 #漏网之鱼
-static=Final, direct, proxy, reject, 节点选择, 自动(延迟优选), 自动(故障转移), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
+static=Final, proxy, direct, reject, 节点选择, 自动(延迟优选), 自动(故障转移), img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 
 #自动策略
 url-latency-benchmark=自动(延迟优选), server-tag-regex=^*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Universal/Auto_Speed.png
@@ -100,14 +99,13 @@ https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Rule
 # GlobalMedia
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/GlobalMedia.list, tag=GlobalMedia, force-policy=Global, update-interval=172800, opt-parser=true, enabled=true
 
-# Talkatone
-https://raw.githubusercontent.com/mottzz87/crules/main/rule/talkatone.list, tag=Talkatone, force-policy=Talkatone, update-interval=172800, opt-parser=true, enabled=true
-
 # Apple
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=Apple, force-policy=Apple, update-interval=172800, opt-parser=true, enabled=true
 
 # PT
-https://raw.githubusercontent.com/Chill-lucky/chill/main/Rules-pt, tag=PT, force-policy=光影时光, update-interval=172800, opt-parser=true, enabled=true
+#https://raw.githubusercontent.com/Chill-lucky/chill/main/Rules-pt, tag=PT, force-policy=光影时光, update-interval=172800, opt-parser=true, enabled=true
+
+# Docker
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Docker/Docker.list, tag=Docker, force-policy=Docker, update-interval=172800, opt-parser=true, enabled=true
 
 [rewrite_remote]
