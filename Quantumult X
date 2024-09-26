@@ -4,11 +4,11 @@ server_check_url= http://www.gstatic.com/generate_204
 # > icitymobile.mobi, id6.me, *.pingan.com.cn, *.cmbchina显示
 profile_img_url=https://github.githubassets.com/images/modules/site/integrators/google.png
 # > 用于Check节点IP地址(以下geo_location_checker任选一个即可)
-geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://ghproxy.com/https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
 #geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/GeoLocationChecker/QuantumultX/IP-API.js
 #geo_location_checker=disabled
 # > 功能强大的解析器，用于引用资源的转换
-resource_parser_url=https://ghproxy.com/https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+resource_parser_url=https://fastly.jsdelivr.net/gh/KOP-XIAO/QuantumultX@master/Scripts/resource-parser.js
 # > 下列路径将不经过QuanX的处理
 excluded_routes=239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32, 192.168.0.0/16, 193.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8
 udp_whitelist=1-442, 444-65535
@@ -66,8 +66,8 @@ url-latency-benchmark=美国(延迟优选), server-tag-regex=^(?=.*(🇺🇸|美
 [filter_remote]
 
 # 广告拦截
+https://limbopro.com/Adblock4limbo.list, tag=Adblock, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/axinhouzilaoyue/myScript/main/rules/talkatoneAdBlock.list, tag=广告拦截, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/AdBlock.list, tag=广告拦截, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
 
 # CN 规则
 https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Ruleset/GEOIPCN.list, tag=ChinaCN, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
@@ -107,6 +107,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 
 # PT
 https://raw.githubusercontent.com/Chill-lucky/chill/main/Rules-pt, tag=PT, force-policy=光影时光, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Docker/Docker.list, tag=Docker, force-policy=Docker, update-interval=172800, opt-parser=true, enabled=true
 
 [rewrite_remote]
 
