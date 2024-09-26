@@ -43,6 +43,7 @@ static=Twitter, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动
 static=Talkatone, 美国(延迟优选), 自动(延迟优选), 自动(故障转移), 香港(延迟优选), 台湾(延迟优选), 日本(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Google_Suite/Voice.png
 static=GitHub, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://github.com/blackmatrix7/ios_rule_script/raw/master/icon/color/github.png
 static=Global, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/namelessup/Koolson-Qure/master/IconSet/Color/Global.png
+static=Docker, direct, 节点选择, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 新加坡(延迟优选), img-url=https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png
 static=Apple, direct, 节点选择, 香港(延迟优选), 节点选择, 自动(延迟优选), 自动(故障转移), 台湾(延迟优选), 日本(延迟优选), 美国(延迟优选), 狮城(延迟优选), img-url=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/color/apple.png
 
 #漏网之鱼
