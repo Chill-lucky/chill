@@ -62,7 +62,6 @@ url-latency-benchmark=美国(延迟优选), server-tag-regex=^(?=.*(🇺🇸|美
 url-latency-benchmark=洛杉矶(延迟优选), server-tag-regex=^(?=.*(Los Angeles))(?!.*(回国|校园|游戏|教育|久虚|(?i)GAME|IPV6)).*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
 
 [server_remote]
-https://mysub.cc/subscribe/19019/vn0LImvMIn/ssr/, tag=IPLC, update-interval=172800, opt-parser=false, enabled=true
 
 [filter_remote]
 
