@@ -129,7 +129,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tie
 [server_local]
 
 [filter_local]
-
+ip6-cidr, ::/0,direct
 # > 奶昔，按摩院直连
 host, ghvpie.xyz, direct
 host, bpnigk.xyz, direct
