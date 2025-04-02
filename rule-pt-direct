@@ -1,4 +1,4 @@
-#PT站点
+#PT直连站点
 DOMAIN-SUFFIX,club.hares.top,DIRECT
 DOMAIN-SUFFIX,hitpt.com,DIRECT
 DOMAIN-SUFFIX,tjupt.org,DIRECT
@@ -92,9 +92,3 @@ DOMAIN-SUFFIX,api.m-team.cc,DIRECT
 DOMAIN-SUFFIX,m-team.cc,DIRECT
 DOMAIN-SUFFIX,m-team.io,DIRECT
 DOMAIN-SUFFIX,open.cd,DIRECT
-DOMAIN-SUFFIX,monikadesign.uk,香港(延迟优选)
-DOMAIN-SUFFIX,fsm.name,香港(延迟优选)
-DOMAIN-SUFFIX,pt.btschool.club,香港(延迟优选)
-DOMAIN-SUFFIX,dmhy.org,香港(延迟优选)
-DOMAIN-SUFFIX,torrentleech.org,香港(延迟优选)
-DOMAIN-SUFFIX,byr.pt,香港(延迟优选)
