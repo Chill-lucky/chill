@@ -63,7 +63,7 @@ proxy-providers:
 
   Sub2:
     type: http
-    url: 手动填写订阅链接
+    url: 
     interval: 86400
     path: ./proxy_providers/sub2.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
@@ -74,7 +74,7 @@ proxy-providers:
 
   Sub3:
     type: http
-    url: 手动填写订阅链接
+    url: 
     interval: 86400
     path: ./proxy_providers/sub3.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
@@ -85,7 +85,7 @@ proxy-providers:
 
   Sub4:
     type: http
-    url: 手动填写订阅链接
+    url: 
     interval: 86400
     path: ./proxy_providers/sub4.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
@@ -96,7 +96,7 @@ proxy-providers:
 
   Sub5:
     type: http
-    url: 手动填写订阅链接
+    url: 
     interval: 86400
     path: ./proxy_providers/sub5.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
