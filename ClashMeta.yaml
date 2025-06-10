@@ -394,6 +394,20 @@ rule-providers:
     path: ./ruleset/PTPROXY.yaml
     interval: 86400
 
+  Emby:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Chill-lucky/chill/refs/heads/main/Emby.yaml
+    path: ./ruleset/PTPROXY.yaml
+    interval: 86400
+
+  iPv6:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Chill-lucky/chill/refs/heads/main/iPv6.yaml
+    path: ./ruleset/PTPROXY.yaml
+    interval: 86400
+
   OpenAi:
     type: http
     behavior: classical
@@ -508,9 +522,8 @@ rule-providers:
 
 
 rules:
-  - DOMAIN,inside.lyrebirdemby.com,📹Emby库
-  - DOMAIN,cdn.lyrebirdemby.com,📹Emby库
-  - DOMAIN-SUFFIX,byr.pt,📮 IPV6节点
+  - RULE-SET,Emby,📹Emby库
+  - RULE-SET,iPv6,📮 IPV6节点
   - RULE-SET,Ad,🆎 AdBlock
   - RULE-SET,PTDIRECT,🇨🇳 站点直连
   - RULE-SET,PTPROXY,🌍 代理站点
@@ -529,6 +542,9 @@ rules:
   - RULE-SET,Direct,DIRECT
   - RULE-SET,Lan,DIRECT
   - RULE-SET,Download,DIRECT
+  - RULE-SET,ChinaIP,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,🐟 兜底分流
   - RULE-SET,ChinaIP,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,🐟 兜底分流
