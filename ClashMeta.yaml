@@ -377,7 +377,7 @@ rule-providers:
   Ad:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Advertising/Advertising_Domain.yaml
     path: ./ruleset/AdBlock.yaml
     interval: 86400
 
