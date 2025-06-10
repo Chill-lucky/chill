@@ -38,6 +38,7 @@ dns:
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
+    - https://223.5.5.5/dns-query
   fallback:
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
@@ -51,7 +52,7 @@ dns:
 proxy-providers:
   Sub1:
     type: http
-    url: 手动填写订阅地址
+    url: 手动填写订阅链接
     interval: 86400
     path: ./proxy_providers/sub1.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
@@ -62,7 +63,7 @@ proxy-providers:
 
   Sub2:
     type: http
-    url: 手动填写订阅地址
+    url: 手动填写订阅链接
     interval: 86400
     path: ./proxy_providers/sub2.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
@@ -73,7 +74,7 @@ proxy-providers:
 
   Sub3:
     type: http
-    url: 手动填写订阅地址
+    url: 手动填写订阅链接
     interval: 86400
     path: ./proxy_providers/sub3.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
@@ -84,7 +85,7 @@ proxy-providers:
 
   Sub4:
     type: http
-    url: 手动填写订阅地址
+    url: 手动填写订阅链接
     interval: 86400
     path: ./proxy_providers/sub4.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
@@ -95,7 +96,8 @@ proxy-providers:
 
   Sub5:
     type: http
-    url: 手动填写订阅地址
+    url: 手动填写订阅链接
+    interval: 86400
     path: ./proxy_providers/sub5.yaml
     filter: "^(?!.*(距离|剩余|套餐|订阅|总计|已用|官网|设置|Expire|客服|禁止|访问)).*"
     health-check:
@@ -140,9 +142,6 @@ proxy-groups:
       - Sub4
       - Sub5
     filter: "EMBY|Emby|Em"
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 150
 
   - name: 📮 IPV6节点
     type: url-test
@@ -350,7 +349,7 @@ proxy-groups:
     type: url-test
     proxies:
       - DIRECT
-    url: http://www.gstatic.com/generate_204
+    url: http://connect.rom.miui.com/generate_204
     interval: 300
     tolerance: 150
 
@@ -377,7 +376,7 @@ rule-providers:
   Ad:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Advertising/Advertising_Domain.yaml
+    url:  https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Advertising/Advertising_Domain.yaml
     path: ./ruleset/AdBlock.yaml
     interval: 86400
 
