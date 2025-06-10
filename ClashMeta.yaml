@@ -398,14 +398,14 @@ rule-providers:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Chill-lucky/chill/refs/heads/main/Emby.yaml
-    path: ./ruleset/PTPROXY.yaml
+    path: ./ruleset/Emby.yaml
     interval: 86400
 
   iPv6:
     type: http
     behavior: classical
     url: https://raw.githubusercontent.com/Chill-lucky/chill/refs/heads/main/iPv6.yaml
-    path: ./ruleset/PTPROXY.yaml
+    path: ./ruleset/iPv6.yaml
     interval: 86400
 
   OpenAi:
