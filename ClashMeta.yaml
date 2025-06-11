@@ -1,10 +1,14 @@
 #==========================================
-# @ConfigName    Clash.Meta 配置文件（基于墨鱼原版修改）
-# @Author            @Chill-lucky
-# @UpdateTime        2025/06/10 8:45 UTC/GMT +8
-# @Function          支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、多机场订阅等，配置同样适用ClashVerge   
-# @Thanks            @blackmatrix7, @Fndroid, @Anti
-# @ConfigVersion     1.0.1
+# @ConfigName Clash.Meta 配置文件（基于墨鱼原版修改）
+# @Author @Chill-lucky
+# @UpdateTime 2025/06/10 8:45 UTC/GMT +8
+# @Function 
+#支持订阅链接自动更新
+#支持所有规则自动更新，无需频繁修改配置文件，内置PT域名直连、代理规则；
+#支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、多机场订阅等；
+#配置适用于Clash Verge (Meta 内核) 、Clash for Windows (Meta 内核) 、ClashMetaForAndroid (CMFA) 、Clash.Meta CLI 、ElectronBot / MetaClash
+# @Thanks @blackmatrix7, @Fndroid, @Anti
+# @ConfigVersion 1.0.1
 #==========================================
 port: 7890
 socks-port: 7891
