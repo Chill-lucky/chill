@@ -1,7 +1,7 @@
 #==========================================
 # @ConfigName Clash.Meta 配置文件（基于墨鱼原版修改）
 # @Author @Chill-lucky
-# @UpdateTime 2025/06/10 8:45 UTC/GMT +8
+# @UpdateTime 2025/06/12 16:55 UTC/GMT +8
 # @Function 
 支持订阅链接自动更新
 支持多机场节点融合订阅（5个）
@@ -12,6 +12,8 @@
 # @Thanks @blackmatrix7, @Fndroid, @Anti
 # @ConfigVersion 2.0
 
+#nikki配置更新2025.6.12
+#update.内置媒体服务器刮削域名，默认香港节点
 #nikki配置更新2025.6.12
 #update.测速通道更新，更新ipv6延迟测速采用单独ipv6测速通道，国内本地主机测速更新为小米的直连探测服务，不受 DNS 污染影响
 #update.优化日志等级为error，减少日志输出性能占用
@@ -513,6 +515,13 @@ rule-providers:
     path: ./ruleset/Direct.yaml
     interval: 86400
 
+  Scraping:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Chill-lucky/chill/refs/heads/main/scraping.yaml
+    path: ./ruleset/Scraping.yaml
+    interval: 86400
+
   Lan:
     type: http
     behavior: classical
@@ -534,7 +543,6 @@ rule-providers:
     path: ./ruleset/ChinaIP.yaml
     interval: 86400
 
-
 rules:
   - RULE-SET,Emby,📹Emby库
   - RULE-SET,iPv6,📮 IPV6节点
@@ -551,11 +559,12 @@ rules:
   - RULE-SET,Google,🌌 谷歌服务
   - RULE-SET,Telegram,📟 电报消息
   - RULE-SET,Twitter,🌏 全球加速
+  - RULE-SET,Scraping,🇭🇰 香港节点
   - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,ProxyLite,🌏 全球加速
-  - RULE-SET,Direct,🇨🇳 直连节点
-  - RULE-SET,Lan,🇨🇳 直连节点
-  - RULE-SET,Download,🇨🇳 直连节点
-  - RULE-SET,ChinaIP,🇨🇳 直连节点
-  - GEOIP,CN,🇨🇳 直连节点
+  - RULE-SET,Direct,DIRECT
+  - RULE-SET,Lan,DIRECT
+  - RULE-SET,Download,DIRECT
+  - RULE-SET,ChinaIP,DIRECT
+  - GEOIP,CN,DIRECT
   - MATCH,🐟 兜底分流
