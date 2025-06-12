@@ -6,39 +6,40 @@
 # @Thanks @ChatGPT
 # @ConfigVersion 1.0
 #==========================================
-DOMAIN-SUFFIX,tmdb.org
-DOMAIN-SUFFIX,api.tmdb.org
-DOMAIN-SUFFIX,tvdb.com
-DOMAIN-SUFFIX,fanart.tv
-DOMAIN-SUFFIX,themoviedb.org
-DOMAIN-SUFFIX,thetvdb.com
-DOMAIN-SUFFIX,gracenote.com
-DOMAIN-SUFFIX,omdbapi.com
-DOMAIN-SUFFIX,rovi.com
-DOMAIN-SUFFIX,tvmaze.com
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,last.fm
-DOMAIN-SUFFIX,imdb.com
-DOMAIN-SUFFIX,opensubtitles.org
-DOMAIN-SUFFIX,musicbrainz.org
-DOMAIN-SUFFIX,metadata.provider.plex.tv
-DOMAIN-SUFFIX,metadata-static.plex.tv
-DOMAIN-SUFFIX,assets.plex.tv
-DOMAIN-SUFFIX,scrobbles.plex.tv
-DOMAIN-SUFFIX,analytics.plex.tv
-DOMAIN-SUFFIX,clients.plex.tv
-DOMAIN-SUFFIX,images.plex.tv
-DOMAIN-SUFFIX,app.plex.tv
-DOMAIN-SUFFIX,discover.provider.plex.tv
-DOMAIN-SUFFIX,mp.plex.tv
-DOMAIN-SUFFIX,ump.plex.tv
-DOMAIN-SUFFIX,mpm.plex.tv
-DOMAIN-SUFFIX,meta.plex.tv
-DOMAIN-SUFFIX,plex.direct
-DOMAIN-SUFFIX,plexapp.com
-DOMAIN-SUFFIX,plex.media
-DOMAIN-SUFFIX,sonymusic.com
-DOMAIN-SUFFIX,sonypictures.com
-DOMAIN-SUFFIX,tvdb2.com
-DOMAIN-SUFFIX,themdb.com
-DOMAIN-SUFFIX,justwatch.com
+payload:
+  - DOMAIN-SUFFIX,tmdb.org
+  - DOMAIN-SUFFIX,api.tmdb.org
+  - DOMAIN-SUFFIX,tvdb.com
+  - DOMAIN-SUFFIX,fanart.tv
+  - DOMAIN-SUFFIX,themoviedb.org
+  - DOMAIN-SUFFIX,thetvdb.com
+  - DOMAIN-SUFFIX,gracenote.com
+  - DOMAIN-SUFFIX,omdbapi.com
+  - DOMAIN-SUFFIX,rovi.com
+  - DOMAIN-SUFFIX,tvmaze.com
+  - DOMAIN-SUFFIX,plex.tv
+  - DOMAIN-SUFFIX,last.fm
+  - DOMAIN-SUFFIX,imdb.com
+  - DOMAIN-SUFFIX,opensubtitles.org
+  - DOMAIN-SUFFIX,musicbrainz.org
+  - DOMAIN-SUFFIX,metadata.provider.plex.tv
+  - DOMAIN-SUFFIX,metadata-static.plex.tv
+  - DOMAIN-SUFFIX,assets.plex.tv
+  - DOMAIN-SUFFIX,scrobbles.plex.tv
+  - DOMAIN-SUFFIX,analytics.plex.tv
+  - DOMAIN-SUFFIX,clients.plex.tv
+  - DOMAIN-SUFFIX,images.plex.tv
+  - DOMAIN-SUFFIX,app.plex.tv
+  - DOMAIN-SUFFIX,discover.provider.plex.tv
+  - DOMAIN-SUFFIX,mp.plex.tv
+  - DOMAIN-SUFFIX,ump.plex.tv
+  - DOMAIN-SUFFIX,mpm.plex.tv
+  - DOMAIN-SUFFIX,meta.plex.tv
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,plexapp.com
+  - DOMAIN-SUFFIX,plex.media
+  - DOMAIN-SUFFIX,sonymusic.com
+  - DOMAIN-SUFFIX,sonypictures.com
+  - DOMAIN-SUFFIX,tvdb2.com
+  - DOMAIN-SUFFIX,themdb.com
+  - DOMAIN-SUFFIX,justwatch.com
