@@ -11,7 +11,8 @@
 配置适用于Clash Verge (Meta 内核) 、Clash for Windows (Meta 内核) 、ClashMetaForAndroid (CMFA) 、Clash.Meta CLI 、ElectronBot / MetaClash
 # @Thanks @blackmatrix7, @Fndroid, @Anti
 # @ConfigVersion 2.0
-
+#nikki配置更新2025.6.12
+#update.单独增加规则GitHub，Docker，Python相关域名默认香港节点
 #nikki配置更新2025.6.12
 #update.内置媒体服务器刮削域名，默认香港节点
 #nikki配置更新2025.6.12
@@ -515,11 +516,11 @@ rule-providers:
     path: ./ruleset/Direct.yaml
     interval: 86400
 
-  Scraping:
+  common_domains:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/Chill-lucky/chill/refs/heads/main/scraping.yaml
-    path: ./ruleset/Scraping.yaml
+    url: https://raw.githubusercontent.com/Chill-lucky/chill/refs/heads/main/common_domains.yaml
+    path: ./ruleset/common_domains.yaml
     interval: 86400
 
   Lan:
@@ -543,6 +544,7 @@ rule-providers:
     path: ./ruleset/ChinaIP.yaml
     interval: 86400
 
+
 rules:
   - RULE-SET,Emby,📹Emby库
   - RULE-SET,iPv6,📮 IPV6节点
@@ -559,7 +561,7 @@ rules:
   - RULE-SET,Google,🌌 谷歌服务
   - RULE-SET,Telegram,📟 电报消息
   - RULE-SET,Twitter,🌏 全球加速
-  - RULE-SET,Scraping,🇭🇰 香港节点
+  - RULE-SET,common_domains,🇭🇰 香港节点
   - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,ProxyLite,🌏 全球加速
   - RULE-SET,Direct,DIRECT
