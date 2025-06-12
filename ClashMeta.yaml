@@ -4,11 +4,13 @@
 # @UpdateTime 2025/06/10 8:45 UTC/GMT +8
 # @Function 
 支持订阅链接自动更新
-支持所有规则自动更新，无需频繁修改配置文件，内置PT域名直连、代理规则；
-支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点、多机场订阅等；
+支持多机场节点融合订阅（5个）
+支持节点故障转移
+所有分流规则均外挂，支持自动更新，无需频繁修改配置文件，内置PT域名直连、代理规则；
+支持手动选择、自动测速、广告屏蔽、兜底分流、按国家分组节点等；
 配置适用于Clash Verge (Meta 内核) 、Clash for Windows (Meta 内核) 、ClashMetaForAndroid (CMFA) 、Clash.Meta CLI 、ElectronBot / MetaClash
 # @Thanks @blackmatrix7, @Fndroid, @Anti
-# @ConfigVersion 1.0.1
+# @ConfigVersion 2.0
 
 #nikki配置更新2025.6.12
 #update.测速通道更新，更新ipv6延迟测速采用单独ipv6测速通道，国内本地主机测速更新为小米的直连探测服务，不受 DNS 污染影响
