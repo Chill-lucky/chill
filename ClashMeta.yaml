@@ -208,6 +208,7 @@ proxy-groups:
   - name: 🎬 国际媒体
     type: select
     proxies:
+      - 🇷🇺 俄罗斯节点
       - 🌏 全球加速
       - ♻️ 自动选择
       - 🚀 手动切换
@@ -244,6 +245,7 @@ proxy-groups:
   - name: 🐦 推特服务
     type: select
     proxies:
+      - 🇷🇺 俄罗斯节点
       - 🌏 全球加速
       - ♻️ 自动选择
       - 🚀 手动切换
@@ -294,7 +296,7 @@ proxy-groups:
       - Sub3
       - Sub4
       - Sub5
-    filter: "港|HK|(?i)Hong"
+    filter: "港|HK|(?i)Hong Kong"
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
@@ -347,6 +349,19 @@ proxy-groups:
       - Sub4
       - Sub5
     filter: "新|坡|SG|(?i)Singapore"
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 150
+
+  - name: 🇷🇺 俄罗斯节点
+    type: url-test
+    use:
+      - Sub1
+      - Sub2
+      - Sub3
+      - Sub4
+      - Sub5
+    filter: "俄|罗斯|RU|(?i)Russia|莫斯科|(?i)Moscow"
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
@@ -557,10 +572,10 @@ rules:
   - RULE-SET,GlobalMedia,🎬 国际媒体
   - RULE-SET,Apple,🍎 苹果服务
   - RULE-SET,Github,🌏 全球加速
-  - RULE-SET,Microsoft, 🌏 全球加速
+  - RULE-SET,Microsoft,🌏 全球加速
   - RULE-SET,Google,🌌 谷歌服务
   - RULE-SET,Telegram,📟 电报消息
-  - RULE-SET,Twitter,🌏 全球加速
+  - RULE-SET,Twitter,🐦 推特服务
   - RULE-SET,common_domains,🇭🇰 香港节点
   - RULE-SET,Game,🎮 游戏平台
   - RULE-SET,ProxyLite,🌏 全球加速
