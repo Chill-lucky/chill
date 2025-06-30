@@ -1,7 +1,4 @@
 rules:
-#禁用代理
-  - DST-PORT,10001,DIRECT
-  - DST-PORT,10002,DIRECT
 #常用
   - DOMAIN-SUFFIX,unraid.net,🇨🇳 Auto
   - DOMAIN-SUFFIX,ghcr.io,🇨🇳 Auto
