@@ -1,8 +1,10 @@
 payload:
+  - DOMAIN,kp.m-team.cc
   - DOMAIN,api.m-team.cc
   - DOMAIN,api.m-team.io
   - DOMAIN,ptchdbits.co
   - DOMAIN,pterclub.com
+  - DOMAIN,pterclub.net
   - DOMAIN,hdhome.org
   - DOMAIN,audiences.me
   - DOMAIN,pt.keepfrds.com
@@ -14,7 +16,6 @@ payload:
   - DOMAIN,open.cd
   - DOMAIN,ubits.club
   - DOMAIN,piggo.me
-  - DOMAIN,leaves.red
   - DOMAIN,hddolby.com
   - DOMAIN,hdarea.club
   - DOMAIN,pthome.net
