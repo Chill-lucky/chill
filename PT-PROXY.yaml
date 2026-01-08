@@ -1,37 +1,190 @@
-payload:
-  - DOMAIN,pt.btschool.club
-  - DOMAIN,byr.pt
-  - DOMAIN,dmhy.org
-  - DOMAIN,star-space.net
-  - DOMAIN,fsm.name
-  - DOMAIN,monikadesign.uk
-  - DOMAIN,hdbits.org
-  - DOMAIN,torrentleech.org
-  - DOMAIN,passthepopcorn.me
-  - DOMAIN,broadcasthe.net
-  - DOMAIN,beyond-hd.me
-  - DOMAIN,redacted.sh
-  - DOMAIN,empornium.is
-  - DOMAIN,blutopia.cc
-  - DOMAIN,cinematik.net
-  - DOMAIN,karagarga.in
-  - DOMAIN,animebytes.tv
-  - DOMAIN,filelist.io
-  - DOMAIN,ipt.lol
-  - DOMAIN,anthelion.me
-  - DOMAIN,aither.cc
-  - DOMAIN,ianon.app
-  - DOMAIN,uhdbits.org
-  - DOMAIN,pussytorrents.org
-  - DOMAIN,speedapp.io
-  - DOMAIN,sportscult.org
-  - DOMAIN,teamhd.org
-  - DOMAIN,happyfappy.org
-  - DOMAIN,v2.nzbs.in
-  - DOMAIN,digitalcore.club
-  - DOMAIN,bitporn.eu
-  - DOMAIN,pandahd.cc
-  - DOMAIN,cinemaz.to
-  - DOMAIN,lst.gg
-  - DOMAIN,iptorrents.com
-  - DOMAIN,jpopsuki.eu
+# ==================================
+# PT-International (Proxy / Blocked)
+# Policy: PROXY
+# Total: ~160 Sites
+# ==================================
+# 特殊：U2 域名被污染
+HOST-SUFFIX,u2.dmhy.org,PROXY
+HOST-SUFFIX,share.dmhy.org,PROXY
+
+# 常规国外站
+HOST-SUFFIX,0magnet.com,PROXY
+HOST-SUFFIX,1337x.to,PROXY
+HOST-SUFFIX,1ptba.com,PROXY
+HOST-SUFFIX,2xfree.org,PROXY
+HOST-SUFFIX,abtorrents.me,PROXY
+HOST-SUFFIX,acidlounge.it,PROXY
+HOST-SUFFIX,adme.link,PROXY
+HOST-SUFFIX,aen.world,PROXY
+HOST-SUFFIX,afun.fun,PROXY
+HOST-SUFFIX,aidoru-online.me,PROXY
+HOST-SUFFIX,aither.cc,PROXY
+HOST-SUFFIX,alpharatio.cc,PROXY
+HOST-SUFFIX,anidex.info,PROXY
+HOST-SUFFIX,animebytes.tv,PROXY
+HOST-SUFFIX,animelayer.ru,PROXY
+HOST-SUFFIX,animetorrents.me,PROXY
+HOST-SUFFIX,animetosho.org,PROXY
+HOST-SUFFIX,anirena.com,PROXY
+HOST-SUFFIX,anisource.net,PROXY
+HOST-SUFFIX,anthelion.me,PROXY
+HOST-SUFFIX,asiancinema.me,PROXY
+HOST-SUFFIX,audiobookbay.is,PROXY
+HOST-SUFFIX,avistaz.to,PROXY
+HOST-SUFFIX,baconbits.org,PROXY
+HOST-SUFFIX,bakabt.me,PROXY
+HOST-SUFFIX,beyond-hd.me,PROXY
+HOST-SUFFIX,bibliotik.me,PROXY
+HOST-SUFFIX,bitded.com,PROXY
+HOST-SUFFIX,bitsexy.org,PROXY
+HOST-SUFFIX,bittorrentfiles.me,PROXY
+HOST-SUFFIX,blutopia.cc,PROXY
+HOST-SUFFIX,bootytape.com,PROXY
+HOST-SUFFIX,broadcasthe.net,PROXY
+HOST-SUFFIX,brokenstones.club,PROXY
+HOST-SUFFIX,btetree.com,PROXY
+HOST-SUFFIX,btracs.com,PROXY
+HOST-SUFFIX,cgpeers.to,PROXY
+HOST-SUFFIX,cinemageddon.net,PROXY
+HOST-SUFFIX,cinemaz.to,PROXY
+HOST-SUFFIX,classix-unlimited.co.uk,PROXY
+HOST-SUFFIX,concertos.live,PROXY
+HOST-SUFFIX,danishbytes.club,PROXY
+HOST-SUFFIX,dark-libria.it,PROXY
+HOST-SUFFIX,datascene.xyz,PROXY
+HOST-SUFFIX,delfin.xyz,PROXY
+HOST-SUFFIX,desitorrents.tv,PROXY
+HOST-SUFFIX,diagrim.org,PROXY
+HOST-SUFFIX,digitalcore.club,PROXY
+HOST-SUFFIX,dimsum.info,PROXY
+HOST-SUFFIX,discfan.net,PROXY
+HOST-SUFFIX,divteam.com,PROXY
+HOST-SUFFIX,docspedia.org,PROXY
+HOST-SUFFIX,dvdseed.com,PROXY
+HOST-SUFFIX,dxpt.net,PROXY
+HOST-SUFFIX,e-hentai.org,PROXY
+HOST-SUFFIX,empornium.is,PROXY
+HOST-SUFFIX,eshare.me,PROXY
+HOST-SUFFIX,ethen.org,PROXY
+HOST-SUFFIX,ethor.net,PROXY
+HOST-SUFFIX,exoticaz.to,PROXY
+HOST-SUFFIX,ext.file.io,PROXY
+HOST-SUFFIX,extrembits.net,PROXY
+HOST-SUFFIX,exttorrents.ch,PROXY
+HOST-SUFFIX,fallen-angel.qh,PROXY
+HOST-SUFFIX,filelist.io,PROXY
+HOST-SUFFIX,finelite.org,PROXY
+HOST-SUFFIX,foureyedfish.org,PROXY
+HOST-SUFFIX,funfile.org,PROXY
+HOST-SUFFIX,fuzzcer.org,PROXY
+HOST-SUFFIX,gazellegames.net,PROXY
+HOST-SUFFIX,generation-free.org,PROXY
+HOST-SUFFIX,gfxpeers.net,PROXY
+HOST-SUFFIX,gloriadit.eu,PROXY
+HOST-SUFFIX,gturbine.org,PROXY
+HOST-SUFFIX,hawke.uno,PROXY
+HOST-SUFFIX,hd4fans.org,PROXY
+HOST-SUFFIX,hdatmos.club,PROXY
+HOST-SUFFIX,hdbits.org,PROXY
+HOST-SUFFIX,hdcenter.net,PROXY
+HOST-SUFFIX,hd-evo.com,PROXY
+HOST-SUFFIX,hd-forever.org,PROXY
+HOST-SUFFIX,hdmonkey.org,PROXY
+HOST-SUFFIX,hd-space.org,PROXY
+HOST-SUFFIX,hd-torrents.org,PROXY
+HOST-SUFFIX,hebits.net,PROXY
+HOST-SUFFIX,hives.co,PROXY
+HOST-SUFFIX,hon3yhd.com,PROXY
+HOST-SUFFIX,icetorrent.org,PROXY
+HOST-SUFFIX,ilolicon.com,PROXY
+HOST-SUFFIX,immortalseed.me,PROXY
+HOST-SUFFIX,indytorrents.org,PROXY
+HOST-SUFFIX,iptorrents.com,PROXY
+HOST-SUFFIX,jptv.club,PROXY
+HOST-SUFFIX,jpopsuki.eu,PROXY
+HOST-SUFFIX,karagarga.in,PROXY
+HOST-SUFFIX,knaben.ru,PROXY
+HOST-SUFFIX,landof.tv,PROXY
+HOST-SUFFIX,learnflakes.net,PROXY
+HOST-SUFFIX,libble.me,PROXY
+HOST-SUFFIX,linkomanija.net,PROXY
+HOST-SUFFIX,losslessclub.com,PROXY
+HOST-SUFFIX,lst.gg,PROXY
+HOST-SUFFIX,m00n.one,PROXY
+HOST-SUFFIX,madsrevolution.net,PROXY
+HOST-SUFFIX,magico.info,PROXY
+HOST-SUFFIX,metal-tracker.com,PROXY
+HOST-SUFFIX,milkie.cc,PROXY
+HOST-SUFFIX,mojolicious.io,PROXY
+HOST-SUFFIX,monikadesign.uk,PROXY
+HOST-SUFFIX,morethantv.me,PROXY
+HOST-SUFFIX,movieglory.net,PROXY
+HOST-SUFFIX,movie-world.nl,PROXY
+HOST-SUFFIX,myanonamouse.net,PROXY
+HOST-SUFFIX,myspleen.org,PROXY
+HOST-SUFFIX,nebulance.io,PROXY
+HOST-SUFFIX,norbits.net,PROXY
+HOST-SUFFIX,nyaa.si,PROXY
+HOST-SUFFIX,orpheus.network,PROXY
+HOST-SUFFIX,passthepopcorn.me,PROXY
+HOST-SUFFIX,peers.fm,PROXY
+HOST-SUFFIX,piratethenet.org,PROXY
+HOST-SUFFIX,pixelhd.me,PROXY
+HOST-SUFFIX,polarbears.com,PROXY
+HOST-SUFFIX,pornbay.org,PROXY
+HOST-SUFFIX,pretome.info,PROXY
+HOST-SUFFIX,privatehd.to,PROXY
+HOST-SUFFIX,proaudiotorrents.org,PROXY
+HOST-SUFFIX,pussytorrents.org,PROXY
+HOST-SUFFIX,puzzle.to,PROXY
+HOST-SUFFIX,pwt.ord,PROXY
+HOST-SUFFIX,racing4everyone.eu,PROXY
+HOST-SUFFIX,rarbg.to,PROXY
+HOST-SUFFIX,redacted.ch,PROXY
+HOST-SUFFIX,resurrexit.net,PROXY
+HOST-SUFFIX,retroflix.club,PROXY
+HOST-SUFFIX,revolutiontt.me,PROXY
+HOST-SUFFIX,rutracker.org,PROXY
+HOST-SUFFIX,sdbits.org,PROXY
+HOST-SUFFIX,scenehd.org,PROXY
+HOST-SUFFIX,scenelife.ru,PROXY
+HOST-SUFFIX,scenetime.com,PROXY
+HOST-SUFFIX,secret-cinema.pw,PROXY
+HOST-SUFFIX,seedfile.io,PROXY
+HOST-SUFFIX,shadowthe.net,PROXY
+HOST-SUFFIX,sharkpt.net,PROXY
+HOST-SUFFIX,shareisland.org,PROXY
+HOST-SUFFIX,sharewood.tv,PROXY
+HOST-SUFFIX,sonix.me,PROXY
+HOST-SUFFIX,speedapp.io,PROXY
+HOST-SUFFIX,speedmaster.io,PROXY
+HOST-SUFFIX,sportscult.org,PROXY
+HOST-SUFFIX,superbits.org,PROXY
+HOST-SUFFIX,swarmazon.club,PROXY
+HOST-SUFFIX,tapochek.net,PROXY
+HOST-SUFFIX,tasmanit.es,PROXY
+HOST-SUFFIX,teamhd.org,PROXY
+HOST-SUFFIX,telly.wtf,PROXY
+HOST-SUFFIX,teracod.net,PROXY
+HOST-SUFFIX,theempire.click,PROXY
+HOST-SUFFIX,thegeeks.click,PROXY
+HOST-SUFFIX,theleach.zone,PROXY
+HOST-SUFFIX,theoccult.click,PROXY
+HOST-SUFFIX,theplace.click,PROXY
+HOST-SUFFIX,theshow.click,PROXY
+HOST-SUFFIX,tokyotosho.info,PROXY
+HOST-SUFFIX,torrentccf.com,PROXY
+HOST-SUFFIX,torrentday.com,PROXY
+HOST-SUFFIX,torrentleech.org,PROXY
+HOST-SUFFIX,torrentseeds.org,PROXY
+HOST-SUFFIX,torrenttech.org,PROXY
+HOST-SUFFIX,trancetraffic.com,PROXY
+HOST-SUFFIX,trezzor.org,PROXY
+HOST-SUFFIX,uhdbits.org,PROXY
+HOST-SUFFIX,uniongang.tv,PROXY
+HOST-SUFFIX,uploado.org,PROXY
+HOST-SUFFIX,waffles.ch,PROXY
+HOST-SUFFIX,worldofp2p.net,PROXY
+HOST-SUFFIX,xspeeds.eu,PROXY
+HOST-SUFFIX,x-thor.eu,PROXY
+HOST-SUFFIX,zambian.net,PROXY
