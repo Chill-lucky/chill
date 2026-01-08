@@ -1,100 +1,275 @@
-payload:
-  - DOMAIN,kp.m-team.cc
-  - DOMAIN,api.m-team.cc
-  - DOMAIN,api.m-team.io
-  - DOMAIN,ptchdbits.co
-  - DOMAIN,pterclub.com
-  - DOMAIN,pterclub.net
-  - DOMAIN,hdhome.org
-  - DOMAIN,audiences.me
-  - DOMAIN,pt.keepfrds.com
-  - DOMAIN,hhanclub.top
-  - DOMAIN,hdsky.me
-  - DOMAIN,totheglory.im
-  - DOMAIN,ourbits.club
-  - DOMAIN,springsunday.net
-  - DOMAIN,open.cd
-  - DOMAIN,ubits.club
-  - DOMAIN,piggo.me
-  - DOMAIN,hddolby.com
-  - DOMAIN,hdarea.club
-  - DOMAIN,pthome.net
-  - DOMAIN,hdatmos.club
-  - DOMAIN,pt.btschool.club
-  - DOMAIN,zmpt.cc
-  - DOMAIN,lemonhd.club
-  - DOMAIN,zhuque.in
-  - DOMAIN,et8.org
-  - DOMAIN,dicmusic.com
-  - DOMAIN,greatposterwall.com
-  - DOMAIN,www.haidan.video
-  - DOMAIN,ultrahd.net
-  - DOMAIN,discfan.net
-  - DOMAIN,hdpt.xyz
-  - DOMAIN,sunnypt.top
-  - DOMAIN,www.pttime.org
-  - DOMAIN,hudbt.hust.edu.cn
-  - DOMAIN,www.hdkyl.in
-  - DOMAIN,xingtan.one
-  - DOMAIN,hdfans.org
-  - DOMAIN,icc2022.com
-  - DOMAIN,pt.hdclone.org
-  - DOMAIN,hdvideo.one
-  - DOMAIN,hdcity.city
-  - DOMAIN,ptlgs.org
-  - DOMAIN,dragonhd.xyz
-  - DOMAIN,pt.hdpost.top
-  - DOMAIN,share.ilolicon.com
-  - DOMAIN,1ptba.com
-  - DOMAIN,52pt.site
-  - DOMAIN,pt.gtk.pw
-  - DOMAIN,www.okpt.net
-  - DOMAIN,www.hitpt.com
-  - DOMAIN,www.htpt.cc
-  - DOMAIN,www.oshen.win
-  - DOMAIN,pandapt.net
-  - DOMAIN,ptchina.org
-  - DOMAIN,ptsbao.club
-  - DOMAIN,rousi.zip
-  - DOMAIN,pt.soulvoice.club
-  - DOMAIN,ptvicomo.net
-  - DOMAIN,wintersakura.net
-  - DOMAIN,ptzone.xyz
-  - DOMAIN,ptcafe.club
-  - DOMAIN,hspt.club
-  - DOMAIN,pt.eastgame.org
-  - DOMAIN,cyanbug.net
-  - DOMAIN,kufei.org
-  - DOMAIN,hdtime.org
-  - DOMAIN,www.agsvpt.com
-  - DOMAIN,carpt.net
-  - DOMAIN,njtupt.top
-  - DOMAIN,crabpt.vip
-  - DOMAIN,www.qingwapt.com
-  - DOMAIN,pt.hdupt.com
-  - DOMAIN,pt.0ff.cc
-  - DOMAIN,nanyangpt.com
-  - DOMAIN,tjupt.org
-  - DOMAIN,www.joyhd.net
-  - DOMAIN,wukongwendao.top
-  - DOMAIN,ptfans.cc
-  - DOMAIN,www.yemapt.org
-  - DOMAIN,xingyunge.top
-  - DOMAIN,cspt.top
-  - DOMAIN,raingfh.top
-  - DOMAIN,tmpt.top
-  - DOMAIN,www.ptlover.cc
-  - DOMAIN,hdbao.cc
-  - DOMAIN,sanpro.pw
-  - DOMAIN,tracker.ldo.pics
-  - DOMAIN,pt.itzmx.com
-  - DOMAIN,pt.cdfile.org
-  - DOMAIN,torrenthub.club
-  - DOMAIN,mckk88.top
-  - DOMAIN,sewerpt.com
-  - DOMAIN,lemonhd.net
-  - DOMAIN,bilibili.download
-  - DOMAIN,kamept.com
-  - DOMAIN,nicept.net
-  - DOMAIN,gazellegames.net
-  - DOMAIN,torrenthub.cc
+# PT-Plugin Sites Rule (259 Entries)
+# Total: 259 sites
+# Policy: DIRECT
+
+HOST-SUFFIX,0magnet.com,DIRECT
+HOST-SUFFIX,1337x.to,DIRECT
+HOST-SUFFIX,1ptba.com,DIRECT
+HOST-SUFFIX,2xfree.org,DIRECT
+HOST-SUFFIX,52pt.site,DIRECT
+HOST-SUFFIX,abtorrents.me,DIRECT
+HOST-SUFFIX,acg.rip,DIRECT
+HOST-SUFFIX,acidlounge.it,DIRECT
+HOST-SUFFIX,adme.link,DIRECT
+HOST-SUFFIX,aen.world,DIRECT
+HOST-SUFFIX,afun.fun,DIRECT
+HOST-SUFFIX,aidoru-online.me,DIRECT
+HOST-SUFFIX,aither.cc,DIRECT
+HOST-SUFFIX,alpharatio.cc,DIRECT
+HOST-SUFFIX,anidex.info,DIRECT
+HOST-SUFFIX,animebytes.tv,DIRECT
+HOST-SUFFIX,animelayer.ru,DIRECT
+HOST-SUFFIX,animetorrents.me,DIRECT
+HOST-SUFFIX,animetosho.org,DIRECT
+HOST-SUFFIX,anirena.com,DIRECT
+HOST-SUFFIX,anisource.net,DIRECT
+HOST-SUFFIX,anthelion.me,DIRECT
+HOST-SUFFIX,asiancinema.me,DIRECT
+HOST-SUFFIX,audiences.me,DIRECT
+HOST-SUFFIX,audiobookbay.is,DIRECT
+HOST-SUFFIX,avistaz.to,DIRECT
+HOST-SUFFIX,azusa.wiki,DIRECT
+HOST-SUFFIX,baconbits.org,DIRECT
+HOST-SUFFIX,bakabt.me,DIRECT
+HOST-SUFFIX,beitai.pt,DIRECT
+HOST-SUFFIX,beyond-hd.me,DIRECT
+HOST-SUFFIX,bibliotik.me,DIRECT
+HOST-SUFFIX,bitded.com,DIRECT
+HOST-SUFFIX,bitsexy.org,DIRECT
+HOST-SUFFIX,bittorrentfiles.me,DIRECT
+HOST-SUFFIX,bj-share.info,DIRECT
+HOST-SUFFIX,blutopia.cc,DIRECT
+HOST-SUFFIX,bootytape.com,DIRECT
+HOST-SUFFIX,broadcasthe.net,DIRECT
+HOST-SUFFIX,brokenstones.club,DIRECT
+HOST-SUFFIX,btetree.com,DIRECT
+HOST-SUFFIX,btracs.com,DIRECT
+HOST-SUFFIX,btschool.club,DIRECT
+HOST-SUFFIX,byr.pt,DIRECT
+HOST-SUFFIX,camoe.cn,DIRECT
+HOST-SUFFIX,carpt.net,DIRECT
+HOST-SUFFIX,ccfbits.org,DIRECT
+HOST-SUFFIX,cgpeers.to,DIRECT
+HOST-SUFFIX,chdbits.co,DIRECT
+HOST-SUFFIX,cinemageddon.net,DIRECT
+HOST-SUFFIX,cinemaz.to,DIRECT
+HOST-SUFFIX,classix-unlimited.co.uk,DIRECT
+HOST-SUFFIX,concertos.live,DIRECT
+HOST-SUFFIX,credit.pt,DIRECT
+HOST-SUFFIX,danishbytes.club,DIRECT
+HOST-SUFFIX,dark-libria.it,DIRECT
+HOST-SUFFIX,datascene.xyz,DIRECT
+HOST-SUFFIX,delfin.xyz,DIRECT
+HOST-SUFFIX,desitorrents.tv,DIRECT
+HOST-SUFFIX,diagrim.org,DIRECT
+HOST-SUFFIX,dicmusic.com,DIRECT
+HOST-SUFFIX,digitalcore.club,DIRECT
+HOST-SUFFIX,dimsum.info,DIRECT
+HOST-SUFFIX,discfan.net,DIRECT
+HOST-SUFFIX,divteam.com,DIRECT
+HOST-SUFFIX,share.dmhy.org,DIRECT
+HOST-SUFFIX,docspedia.org,DIRECT
+HOST-SUFFIX,dragonbite.org,DIRECT
+HOST-SUFFIX,dvdseed.com,DIRECT
+HOST-SUFFIX,dxpt.net,DIRECT
+HOST-SUFFIX,pt.eastgame.org,DIRECT
+HOST-SUFFIX,e-hentai.org,DIRECT
+HOST-SUFFIX,empornium.is,DIRECT
+HOST-SUFFIX,eshare.me,DIRECT
+HOST-SUFFIX,ethen.org,DIRECT
+HOST-SUFFIX,ethor.net,DIRECT
+HOST-SUFFIX,exoticaz.to,DIRECT
+HOST-SUFFIX,ext.file.io,DIRECT
+HOST-SUFFIX,extrembits.net,DIRECT
+HOST-SUFFIX,exttorrents.ch,DIRECT
+HOST-SUFFIX,fallen-angel.qh,DIRECT
+HOST-SUFFIX,filelist.io,DIRECT
+HOST-SUFFIX,finelite.org,DIRECT
+HOST-SUFFIX,foureyedfish.org,DIRECT
+HOST-SUFFIX,fsm.name,DIRECT
+HOST-SUFFIX,funfile.org,DIRECT
+HOST-SUFFIX,fuzzcer.org,DIRECT
+HOST-SUFFIX,gainbound.net,DIRECT
+HOST-SUFFIX,gazellegames.net,DIRECT
+HOST-SUFFIX,generation-free.org,DIRECT
+HOST-SUFFIX,gfxpeers.net,DIRECT
+HOST-SUFFIX,gloriadit.eu,DIRECT
+HOST-SUFFIX,greatposterwall.com,DIRECT
+HOST-SUFFIX,gturbine.org,DIRECT
+HOST-SUFFIX,haidan.video,DIRECT
+HOST-SUFFIX,hares.top,DIRECT
+HOST-SUFFIX,hawke.uno,DIRECT
+HOST-SUFFIX,hd4fans.org,DIRECT
+HOST-SUFFIX,hdatmos.club,DIRECT
+HOST-SUFFIX,hdbits.org,DIRECT
+HOST-SUFFIX,hdcenter.net,DIRECT
+HOST-SUFFIX,hdchina.org,DIRECT
+HOST-SUFFIX,hdcity.leniter.org,DIRECT
+HOST-SUFFIX,hddolby.com,DIRECT
+HOST-SUFFIX,hd-evo.com,DIRECT
+HOST-SUFFIX,hdfans.org,DIRECT
+HOST-SUFFIX,hd-forever.org,DIRECT
+HOST-SUFFIX,hdhome.org,DIRECT
+HOST-SUFFIX,hdmayi.com,DIRECT
+HOST-SUFFIX,hdmonkey.org,DIRECT
+HOST-SUFFIX,hdol.cn,DIRECT
+HOST-SUFFIX,hdonly.org,DIRECT
+HOST-SUFFIX,pt.hdpost.top,DIRECT
+HOST-SUFFIX,hdroute.org,DIRECT
+HOST-SUFFIX,hdsens.com,DIRECT
+HOST-SUFFIX,hdsky.me,DIRECT
+HOST-SUFFIX,hd-space.org,DIRECT
+HOST-SUFFIX,hdstreet.club,DIRECT
+HOST-SUFFIX,hdtime.org,DIRECT
+HOST-SUFFIX,hd-torrents.org,DIRECT
+HOST-SUFFIX,pt.hdupt.com,DIRECT
+HOST-SUFFIX,hdvideo.one,DIRECT
+HOST-SUFFIX,hdzone.me,DIRECT
+HOST-SUFFIX,hebits.net,DIRECT
+HOST-SUFFIX,hhanclub.top,DIRECT
+HOST-SUFFIX,hhdream.com,DIRECT
+HOST-SUFFIX,hives.co,DIRECT
+HOST-SUFFIX,hon3yhd.com,DIRECT
+HOST-SUFFIX,htpt.cc,DIRECT
+HOST-SUFFIX,hudbt.hust.edu.cn,DIRECT
+HOST-SUFFIX,huno.pt,DIRECT
+HOST-SUFFIX,icetorrent.org,DIRECT
+HOST-SUFFIX,ilolicon.com,DIRECT
+HOST-SUFFIX,immortalseed.me,DIRECT
+HOST-SUFFIX,indytorrents.org,DIRECT
+HOST-SUFFIX,iptorrents.com,DIRECT
+HOST-SUFFIX,jptv.club,DIRECT
+HOST-SUFFIX,jpopsuki.eu,DIRECT
+HOST-SUFFIX,kamept.com,DIRECT
+HOST-SUFFIX,karagarga.in,DIRECT
+HOST-SUFFIX,pt.keepfrds.com,DIRECT
+HOST-SUFFIX,kingshome.top,DIRECT
+HOST-SUFFIX,knaben.ru,DIRECT
+HOST-SUFFIX,landof.tv,DIRECT
+HOST-SUFFIX,learnflakes.net,DIRECT
+HOST-SUFFIX,lemonhd.org,DIRECT
+HOST-SUFFIX,libble.me,DIRECT
+HOST-SUFFIX,linkomanija.net,DIRECT
+HOST-SUFFIX,losslessclub.com,DIRECT
+HOST-SUFFIX,lst.gg,DIRECT
+HOST-SUFFIX,m00n.one,DIRECT
+HOST-SUFFIX,madsrevolution.net,DIRECT
+HOST-SUFFIX,magico.info,DIRECT
+HOST-SUFFIX,metal-tracker.com,DIRECT
+HOST-SUFFIX,milkie.cc,DIRECT
+HOST-SUFFIX,mocat.c,DIRECT
+HOST-SUFFIX,mojolicious.io,DIRECT
+HOST-SUFFIX,momentpt.net,DIRECT
+HOST-SUFFIX,monikadesign.uk,DIRECT
+HOST-SUFFIX,morethantv.me,DIRECT
+HOST-SUFFIX,movieglory.net,DIRECT
+HOST-SUFFIX,movie-world.nl,DIRECT
+HOST-SUFFIX,m-team.cc,DIRECT
+HOST-SUFFIX,myanonamouse.net,DIRECT
+HOST-SUFFIX,myspleen.org,DIRECT
+HOST-SUFFIX,nanyangpt.com,DIRECT
+HOST-SUFFIX,nebulance.io,DIRECT
+HOST-SUFFIX,nethd.org,DIRECT
+HOST-SUFFIX,nexusphp.org,DIRECT
+HOST-SUFFIX,nicept.net,DIRECT
+HOST-SUFFIX,norbits.net,DIRECT
+HOST-SUFFIX,npupt.com,DIRECT
+HOST-SUFFIX,nyaa.si,DIRECT
+HOST-SUFFIX,obs.ptsbao.club,DIRECT
+HOST-SUFFIX,okpt.net,DIRECT
+HOST-SUFFIX,open.cd,DIRECT
+HOST-SUFFIX,orpheus.network,DIRECT
+HOST-SUFFIX,oshen.win,DIRECT
+HOST-SUFFIX,ourbits.club,DIRECT
+HOST-SUFFIX,pandapt.net,DIRECT
+HOST-SUFFIX,passthepopcorn.me,DIRECT
+HOST-SUFFIX,peers.fm,DIRECT
+HOST-SUFFIX,piggo.co,DIRECT
+HOST-SUFFIX,piratethenet.org,DIRECT
+HOST-SUFFIX,pixelhd.me,DIRECT
+HOST-SUFFIX,polarbears.com,DIRECT
+HOST-SUFFIX,pornbay.org,DIRECT
+HOST-SUFFIX,pretome.info,DIRECT
+HOST-SUFFIX,privatehd.to,DIRECT
+HOST-SUFFIX,proaudiotorrents.org,DIRECT
+HOST-SUFFIX,pterclub.com,DIRECT
+HOST-SUFFIX,ptfans.org,DIRECT
+HOST-SUFFIX,ptfiles.net,DIRECT
+HOST-SUFFIX,pt.msg.vg,DIRECT
+HOST-SUFFIX,ptsbao.club,DIRECT
+HOST-SUFFIX,pt.skit.me,DIRECT
+HOST-SUFFIX,pttime.org,DIRECT
+HOST-SUFFIX,pussytorrents.org,DIRECT
+HOST-SUFFIX,puzzle.to,DIRECT
+HOST-SUFFIX,pwt.ord,DIRECT
+HOST-SUFFIX,racing4everyone.eu,DIRECT
+HOST-SUFFIX,railgunpt.com,DIRECT
+HOST-SUFFIX,rainbowisland.net,DIRECT
+HOST-SUFFIX,rarbg.to,DIRECT
+HOST-SUFFIX,redacted.ch,DIRECT
+HOST-SUFFIX,redleaves.cc,DIRECT
+HOST-SUFFIX,resurrexit.net,DIRECT
+HOST-SUFFIX,retroflix.club,DIRECT
+HOST-SUFFIX,revolutiontt.me,DIRECT
+HOST-SUFFIX,rousi.zip,DIRECT
+HOST-SUFFIX,rousipro.net,DIRECT
+HOST-SUFFIX,rutracker.org,DIRECT
+HOST-SUFFIX,sdbits.org,DIRECT
+HOST-SUFFIX,scenehd.org,DIRECT
+HOST-SUFFIX,scenelife.ru,DIRECT
+HOST-SUFFIX,scenetime.com,DIRECT
+HOST-SUFFIX,secret-cinema.pw,DIRECT
+HOST-SUFFIX,seedfile.io,DIRECT
+HOST-SUFFIX,shadowthe.net,DIRECT
+HOST-SUFFIX,sharkpt.net,DIRECT
+HOST-SUFFIX,shareisland.org,DIRECT
+HOST-SUFFIX,sharewood.tv,DIRECT
+HOST-SUFFIX,pt.sjtu.edu.cn,DIRECT
+HOST-SUFFIX,skyeysnow.com,DIRECT
+HOST-SUFFIX,sonix.me,DIRECT
+HOST-SUFFIX,pt.soulvoice.club,DIRECT
+HOST-SUFFIX,speedapp.io,DIRECT
+HOST-SUFFIX,speedmaster.io,DIRECT
+HOST-SUFFIX,sportscult.org,DIRECT
+HOST-SUFFIX,springsunday.net,DIRECT
+HOST-SUFFIX,star-space.net,DIRECT
+HOST-SUFFIX,sugoimusic.me,DIRECT
+HOST-SUFFIX,superbits.org,DIRECT
+HOST-SUFFIX,swarmazon.club,DIRECT
+HOST-SUFFIX,tapochek.net,DIRECT
+HOST-SUFFIX,tasmanit.es,DIRECT
+HOST-SUFFIX,teamhd.org,DIRECT
+HOST-SUFFIX,telly.wtf,DIRECT
+HOST-SUFFIX,teracod.net,DIRECT
+HOST-SUFFIX,theempire.click,DIRECT
+HOST-SUFFIX,thegeeks.click,DIRECT
+HOST-SUFFIX,theleach.zone,DIRECT
+HOST-SUFFIX,theoccult.click,DIRECT
+HOST-SUFFIX,theplace.click,DIRECT
+HOST-SUFFIX,theshow.click,DIRECT
+HOST-SUFFIX,tjupt.org,DIRECT
+HOST-SUFFIX,pt.eastgame.org,DIRECT
+HOST-SUFFIX,tokyotosho.info,DIRECT
+HOST-SUFFIX,torrentccf.com,DIRECT
+HOST-SUFFIX,torrentday.com,DIRECT
+HOST-SUFFIX,torrentleech.org,DIRECT
+HOST-SUFFIX,torrentseeds.org,DIRECT
+HOST-SUFFIX,torrenttech.org,DIRECT
+HOST-SUFFIX,totheglory.im,DIRECT
+HOST-SUFFIX,trancetraffic.com,DIRECT
+HOST-SUFFIX,trezzor.org,DIRECT
+HOST-SUFFIX,tu88.men,DIRECT
+HOST-SUFFIX,u2.dmhy.org,DIRECT
+HOST-SUFFIX,uhdbits.org,DIRECT
+HOST-SUFFIX,uniongang.tv,DIRECT
+HOST-SUFFIX,unipt.org,DIRECT
+HOST-SUFFIX,uploado.org,DIRECT
+HOST-SUFFIX,waffles.ch,DIRECT
+HOST-SUFFIX,worldofp2p.net,DIRECT
+HOST-SUFFIX,xspeeds.eu,DIRECT
+HOST-SUFFIX,x-thor.eu,DIRECT
+HOST-SUFFIX,yemapt.org,DIRECT
+HOST-SUFFIX,zambian.net,DIRECT
+HOST-SUFFIX,zhixing.bjtu.edu.cn,DIRECT
+HOST-SUFFIX,zhuque.in,DIRECT
+HOST-SUFFIX,zmpt.cc,DIRECT
