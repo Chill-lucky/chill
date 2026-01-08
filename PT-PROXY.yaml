@@ -1,7 +1,7 @@
 # ==================================
 # PT-International (Proxy / Blocked)
 # Policy: PROXY
-# Total: 182 Sites
+# Total: 179 Sites
 # ==================================
 # 特殊：U2 域名被污染
 HOST-SUFFIX,u2.dmhy.org,PROXY
