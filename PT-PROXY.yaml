@@ -1,12 +1,11 @@
 # ==================================
 # PT-International (Proxy / Blocked)
 # Policy: PROXY
-# Total: ~160 Sites
+# Total: 182 Sites
 # ==================================
 # 特殊：U2 域名被污染
 HOST-SUFFIX,u2.dmhy.org,PROXY
 HOST-SUFFIX,share.dmhy.org,PROXY
-
 # 常规国外站
 HOST-SUFFIX,0magnet.com,PROXY
 HOST-SUFFIX,1337x.to,PROXY
