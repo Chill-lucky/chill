@@ -10,7 +10,7 @@ profile_img_url = https://github.com/Centralmatrix3/Scripts/raw/master/Gallery/S
 # 地理位置检查
 geo_location_checker=http://ip-api.com/json/?lang=zh-CN, https://raw.githubusercontent.com/limbopro/QuantumultX/master/Scripts/IP_API.js
 # 资源解析器
-resource_parser_url = https://github.com/KOP-XIAO/QuantumultX/raw/master/Scripts/resource-parser.js
+resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
 # 排除路线
 excluded_routes = 17.0.0.0/8, 239.255.255.250/32, 24.105.30.129/32, 185.60.112.157/32, 185.60.112.158/32, 182.162.132.1/32
 # DNS排除列表
