@@ -1,0 +1,24 @@
+# Quantumult X filter rules for IBKR / Interactive Brokers traffic
+# Policy names:
+# - direct: IBKR / Interactive Brokers traffic
+#
+# IBKR is intentionally kept direct here. If you want global IBKR traffic to
+# use a proxy later, replace direct with the target policy or policy group name.
+
+# IBKR / Interactive Brokers
+HOST-SUFFIX,ibkr.com.cn,direct
+HOST-SUFFIX,ibllc.com.cn,direct
+HOST-SUFFIX,ibkr.com,direct
+HOST-SUFFIX,ibllc.com,direct
+HOST-SUFFIX,ibkr.com.hk,direct
+HOST-SUFFIX,ibkr.com.au,direct
+HOST-SUFFIX,ibcdn.com,direct
+HOST-SUFFIX,iblink.com,direct
+HOST-SUFFIX,interactivebrokers.com,direct
+HOST-SUFFIX,interactivebrokers.com.hk,direct
+HOST-SUFFIX,interactivebrokers.ca,direct
+HOST-SUFFIX,interactivebrokers.ie,direct
+HOST-SUFFIX,interactivebrokers.co.uk,direct
+HOST-SUFFIX,interactivebrokers.co.in,direct
+HOST-SUFFIX,interactivebrokers.com.sg,direct
+HOST-SUFFIX,interactivebrokers.com.au,direct
