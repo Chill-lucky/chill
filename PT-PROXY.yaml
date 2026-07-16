@@ -1,7 +1,7 @@
 # ==================================
 # PT-International (Proxy / Blocked)
 # Policy: PROXY
-# Total: 179 Sites
+# Total: 177 Sites
 # ==================================
 # 特殊：U2 域名被污染
 HOST-SUFFIX,u2.dmhy.org,PROXY
@@ -68,7 +68,6 @@ HOST-SUFFIX,exoticaz.to,PROXY
 HOST-SUFFIX,ext.file.io,PROXY
 HOST-SUFFIX,extrembits.net,PROXY
 HOST-SUFFIX,exttorrents.ch,PROXY
-HOST-SUFFIX,fallen-angel.qh,PROXY
 HOST-SUFFIX,filelist.io,PROXY
 HOST-SUFFIX,finelite.org,PROXY
 HOST-SUFFIX,foureyedfish.org,PROXY
@@ -133,7 +132,6 @@ HOST-SUFFIX,privatehd.to,PROXY
 HOST-SUFFIX,proaudiotorrents.org,PROXY
 HOST-SUFFIX,pussytorrents.org,PROXY
 HOST-SUFFIX,puzzle.to,PROXY
-HOST-SUFFIX,pwt.ord,PROXY
 HOST-SUFFIX,racing4everyone.eu,PROXY
 HOST-SUFFIX,rarbg.to,PROXY
 HOST-SUFFIX,redacted.ch,PROXY
